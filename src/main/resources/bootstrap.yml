@@ -1,0 +1,11 @@
+server:
+  port: 15000
+
+spring:
+  application:
+    name: blog-eureka
+  cloud:
+    config:
+      uri: http://localhost:10000
+    
+    
